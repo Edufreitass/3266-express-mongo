@@ -111,3 +111,6 @@ No arquivo server.js:
 - [REST: Conceito e fundamentos](https://www.alura.com.br/artigos/rest-conceito-e-fundamentos)
 - [Um guia para importação e exportação de módulos com JavaScript](https://www.alura.com.br/artigos/guia-importacao-exportacao-modulos-javascript)
 - [Async/await no JavaScript: o que é e quando usar a programação assíncrona?](https://www.alura.com.br/artigos/async-await-no-javascript-o-que-e-e-quando-usar)
+- [Site oficial do Express](https://expressjs.com/)
+- [Códigos de resposta HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
+- [Artigo "Desmistificando o protocolo HTTP"](https://www.alura.com.br/artigos/http)
