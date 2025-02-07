@@ -80,6 +80,17 @@ Vamos entender e detalhar alguns desses atributos:
 - `dependencies`: define a lista de pacotes necessários para executar seu projeto num ambiente de produção.
 - `devDependencies`: define a lista de pacotes necessários para executar o projeto em um ambiente de desenvolvimento e testes. Existem outras configurações que podem existir nesse arquivo, como repositório do Git, homepage, peerDependencies, entre outras que podem ser visualizadas na [documentação oficial do NPM](https://docs.npmjs.com/cli/v11/configuring-npm/package-json).
 
+## Para saber mais: o que são portas
+
+O que são portas? Também chamadas de portas lógicas, elas são gerenciadas pelo sistema operacional e agem como pontos onde conexões de rede acontecem. Por exemplo, a comunicação com a API que estamos desenvolvendo se dá através da porta 3000.
+
+O número padrão de portas é 65.535. As portas são identificadas por números padronizados e muitas portas estão associadas a processos específicos, por exemplo:
+
+- 5432 é usada para conexão com serviços do banco de dados PostgreSQL.
+- 3306/3307 são usadas em conexões com o banco MySQL.
+- 587 utilizada para conexões SMTP (Simple Mail Transfer Protocol, o protocolo de envio e recebimento de e-mails).
+- 80 é a porta padrão de conexões HTTP, usada pelos navegadores.
+
 ### Referências:
 
 - [Markdown](https://www.markdownguide.org/)
