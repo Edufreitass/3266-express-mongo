@@ -44,4 +44,14 @@ app.put("/livros/:id", (req, res) => {
     res.status(200).json(livros);
 });
 
+app.delete("/livros/:id", (req, res) => {
+    const index = buscaLivro(req.params.id);
+    if (index !== -1) {
+        livros.splice(index, 1);
+        res.status(200).send("livro removido com sucesso");
+    } else {
+        res.status(404).send("registro não encontrado");
+    }
+});
+
 export default app;
