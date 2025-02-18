@@ -1,10 +1,7 @@
 import mongoose from "mongoose";
 
-const user = process.env.MONGODB_USER
-const password = process.env.MONGODB_PASSWORD
-
 async function conectaNaDatabase() {
-    mongoose.connect(`mongodb+srv://${user}:${password}@cluster0.jtryg.mongodb.net/livraria?retryWrites=true&w=majority&appName=Cluster0`);
+    mongoose.connect(process.env.DB_CONNECTION_STRING);
 
     return mongoose.connection;
 }
